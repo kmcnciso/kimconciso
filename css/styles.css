@@ -1,0 +1,520 @@
+@font-face {
+    font-family: 'Paladins';
+    src: url(../fonts/paladins/paladins.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Paladins_Laser';
+    src: url(../fonts/paladins/paladinslaser.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Paladins_Gradient';
+    src: url(../fonts/paladins/paladinsgrad.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url(../fonts/hind/Hind-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Hind';
+    src: url(../fonts/hind/Hind-600.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat/Montserrat-600.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/montserrat/Montserrat-700.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat_Bold_Italic';
+    src: url(../fonts/montserrat/Montserrat-700italic.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Montserrat_SemiBold_Italic';
+    src: url(../fonts/montserrat/Montserrat-600italic.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat_ExtraBold_Italic';
+    src: url(../fonts/montserrat/Montserrat-800italic.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_Black_Italic';
+    src: url(../fonts/montserrat/Montserrat-900italic.ttf);
+    font-weight: 900;
+}
+
+/*          PALADINS            */
+.Hypernova-Bliss, .brief-descriptions h3{
+    font-family: 'Paladins';
+    font-weight: normal;
+}
+
+
+.hero h1, h2, .album-list h3{
+    font-family: 'Paladins_Laser';
+    font-weight: normal;
+}
+
+.merch h1{
+    font-family: 'Paladins_Gradient';
+    font-weight: normal;
+}
+
+/*          HIND            */
+section p, .hypernova-bliss-description, label{
+    font-family: 'Hind', 'Tahoma', 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: normal;
+}
+
+.newsletter, .album-list ol{
+    font-family: 'Hind','Tahoma', 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 600;
+}
+
+/*          MONTSERRAT          */
+.hero p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.merch-grid-container h2, .vinyl-labels h5, .price{
+    font-family: 'Montserrat','Tahoma', 'Arial', 'Helvetica', 'sans-serif';    
+    font-weight: 700;
+}
+
+.album-list p{
+    font-family: 'Montserrat_Bold_Italic','Tahoma', 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 700;
+}
+
+.band-members h2{
+    font-family: 'Montserrat_Black_Italic','Tahoma', 'Arial', 'Helvetica', 'sans-serif';
+    font-size: 900;
+}
+
+.BUY{
+    font-family: 'Montserrat_SemiBold_Italic','Tahoma', 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 600;
+}
+
+.card h5{
+    font-weight: 700;
+}
+
+.subscribe{
+    font-family: 'Montserrat_ExtraBold_Italic','Tahoma', 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: 800;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', 'Tahoma', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+/*                            COLOR                            */
+nav a:hover, .hero h1, .hero p, .button-setting a:hover, .band-members h2 {
+    color: rgb(228, 34, 120);
+}
+
+footer, input, .merch h1{
+    background-color: rgb(228, 34, 120);
+}
+
+.button-setting a:link, .button-setting a:visited, footer a:hover, .vinyl-labels button, .card button {
+    color: rgb(247, 190, 202);
+}
+
+nav a, ::placeholder, footer li{
+    color: black;
+}
+
+.vinyl-labels button, .card button, .band-members, .music-player{
+    background-color: black
+}
+
+.band-members,.music-player{
+    color: white;
+}
+
+/*              PADDING                  */
+nav, section h2, .BUY, .newsletter, .album ol {
+    padding: 20px;
+}
+
+.card p, .album-list h4{
+    padding: 10px;
+}
+
+.card img, .merch-grid-container .card, .album ol, form,.merch-grid-container p, .price {
+    padding-top: 10px;
+}
+
+.vinyl-record-album div,.album-list, .album,.album img, .hero, .album{
+    padding-top: 50px;
+}
+
+.album-list h4,.album-description{
+    margin-top: 50px;
+}
+
+/*          DISPLAY-FLEX        */
+
+nav ul, .hero, section img, form, .newsletter,.contacts label, .contacts input, .album-list, .album,
+.welcome-to-wonderland, .audio, .vinyl-record-album div {
+    display: flex;
+}
+
+/*          ALIGNMENTS         */
+nav ul, .hero-texts, .card img, form, .newsletter, .audio{
+    align-items: center;
+}
+
+nav ul, nav a, .hero-texts, .button-setting a:link, section h2,section p, .card h5, .subscribe,.welcome-to-wonderland h4,.vinyl-labels button, .card button,.merch h1{
+    text-align: center;
+}
+
+.brief-descriptions h3, .hypernova-bliss-description p, .contacts label,.merch-grid-container h2{
+    text-align: left;
+}
+
+
+/*                              FLEX DIRECTION                                       */
+.contacts label, .contacts input, .album-list,.welcome-to-wonderland, .audio,.vinyl-labels{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+}
+
+/* NAVIGATION */
+nav {
+    font-size: 20px;
+    background-color: white;
+}
+
+nav ul{
+    justify-content: space-between;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 0 4px 0 4px
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav .Hypernova-Bliss{
+    font-size: 30px;
+}
+
+/* HOME PAGE (index) */
+.hero img{
+    max-width: 650px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.hero-texts {
+    padding-top: 250px;
+}
+
+.hero h1{
+    font-size: 50px;
+}
+
+.hero h1, .hero p{
+    padding: 5px;
+}
+
+
+
+
+/*          HREF BUTTON         */
+.button-setting a:link {
+    border-radius: 100px;
+    background-color: rgb(52, 4, 16);
+    padding: 14px 60px;
+    text-decoration: none;
+    display: inline-block;
+}
+/*          HREF BUTTON ENDS         */
+
+
+
+section img {
+    padding-top: 100px;
+    display: inline-flex;
+    max-width: 1260px;
+}
+
+section h2{
+    font-size: 50px;
+}
+
+section p{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.hypernova-bliss-description{
+    align-items: flex-start;
+}
+
+.hypernova-bliss-description img{
+    max-width: 500px;
+    float: right;  
+
+}
+
+.brief-descriptions h3{
+    font-size: 50px;
+    padding-top: 130px;
+    padding-left: 20px;
+}
+
+.hypernova-bliss-description p{
+    font-size: 25px;
+    align-self: flex-start;
+    padding-bottom: 100px;
+}
+.band-members h2 {
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+
+/*              GRID CONTAINERS & CARD                 */
+.merch-grid-container, .grid-container, .grid-container-footer,.credits-info{
+    display: grid;
+}
+
+
+.merch-grid-container,.grid-container, .grid-container-footer{
+    column-gap: 20px;
+    align-self: flex;
+}
+
+.merch-grid-container{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-container, .grid-container-footer{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card img, .merch-grid-container .card{
+    justify-content: center;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h5{
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.card p{
+    font-size: 15px;
+    text-align: justify;
+    widows: 4;
+}
+
+
+
+/*              FOOTER           */
+
+::placeholder{
+    opacity: 50%;
+}
+.subscribe{
+    font-size: 100px;
+}
+
+form, .newsletter{
+    justify-content: center;
+}
+
+.contacts{
+    margin-left: 500px;
+}
+
+.contacts label, .contacts input{
+    flex-direction: row;
+}
+
+.contacts input{
+    margin-right: 100px;
+}
+
+.contacts label{
+    padding-bottom: 10px;
+}
+
+.newsletter input{
+    margin-right: 10px;
+}
+
+footer li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.credits-info{
+    padding-top: 60px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.credits-info p{
+    float: left;
+    padding-top: 15px;
+}
+
+.credits-info img{
+    max-width: 35px;
+    float: right;
+    padding-right: 20px;
+}
+
+footer .Hypernova-Bliss{
+    font-size: 90px;
+}
+
+
+
+
+
+/*                                  ALBUM PAGE                       */
+
+.album img{
+    padding-bottom: 20px;
+    max-width: 600px;
+}
+
+.album .button-setting a{
+    margin-left: 220px;
+    margin-bottom: 25px;
+
+}
+
+.album-list{
+    margin-left: 50px;
+}
+
+.album-list h3{
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+/*                    MUSIC PLAYER                           */
+
+
+.music-player{
+    padding: 80px;
+}
+
+.welcome-to-wonderland {
+    font-size: 20px;
+    text-align: justify;
+}
+.welcome-to-wonderland h4{
+    font-size: 30px;
+}
+
+
+/*                              MERCH PAGE                              */
+
+.vinyl-record-album img{
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    max-width: 600px;
+}
+
+.vinyl-labels{
+    padding: 60px;
+    margin-top: 60px;
+}
+
+.vinyl-labels h5{
+    font-size: 30px;
+}
+
+.vinyl-labels .price{
+font-size: 20px;
+}
+
+form {
+    margin-right: 430px;
+}
+
+.vinyl-labels button, .card button{
+    margin-top: 30px;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.merch h1{
+    font-size: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.merch-grid-container p, .price{
+    padding-left: 0;
+}
+
+.merch-grid-container .price, .merch-grid-container h2{
+    font-size: 18px;
+}
+
+.merch-grid-container h2{
+    padding: 0px;
+}
+
+.merch-grid-container{
+    margin-bottom: 50px;
+}
